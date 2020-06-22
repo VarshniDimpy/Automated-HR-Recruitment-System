@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MLE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><b>APPLY HERE FOR MACHINE LEARNING ENGINEER</b></div> <br> 
+        <form action="MLE_application"  enctype="multipart/form-data">  
+        <b>Applicant ID:</b><br/><input type="text" name="id" required/><br/><br/>    
+        <b>First Name:</b><br/><input type="text" name="firstname" required/><br/><br/>
+        <b>Last Name:</b><br/><input type="text" name="lastname" required><br/><br/>
+        <b>E-mail:</b> <br/><input type="email" name="emailaddr" required><br/><br/>
+        <b>Gender</b> <br><br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other <br><br>
+        <b>Graduation in CSE/ECE</b> <br><br>
+        <input type="radio" name="grad" value="B.Tech" checked> B.Tech <br>
+        <input type="radio" name="grad" value="B.Tech + M.tech"> B.Tech + M.tech<br>
+        <input type="radio" name="grad" value="any other undegrad + M.tech"> any other undegrad + M.tech <br><br>
+        If your graduation is other than above, sorry you are not eligible to apply.<br><br>
+        <b>Percentage in graduation</b> <br><br>
+        <input type="radio" name="per" value="above 90%" checked> above 90% <br>
+        <input type="radio" name="per" value="between 80% - 90%"> between 80% - 90%<br>
+        <input type="radio" name="per" value="between 70% - 75%"> between 70% - 75%<br><br>
+        If your % is below 70, sorry you are not eligible to apply.
+        <br><br>
+        <b>Research Experience in </b> <br><br>
+        <input type="radio" name="re" value="Core Machine Learning" checked> Core Machine Learning <br>
+        <input type="radio" name="re" value="Computer Vision"> Computer Vision<br>
+        <input type="radio" name="re" value="Natural Language Processing"> Natural Language Processing<br><br>
+        If you don't have research experience in any of the above, sorry you are not eligible to apply.
+        <br><br>
+        <b>Total Experience</b> <br><br>
+        <input type="radio" name="te" value="1 year" checked> 1 year <br>
+        <input type="radio" name="te" value="between 2-5 years"> between 2-5 years<br>
+        <input type="radio" name="te" value="Above 5 years"> Above 5 years<br><br>
+        If you don't have minimum experience of 1 year, sorry you are not eligible to apply.
+        <br><br>
+        
+        
+        <input type ="submit" value="Next" onclick="form.action='MLE_application';">
+        </form>  
+    </body>
+</html>
